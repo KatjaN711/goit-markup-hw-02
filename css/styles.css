@@ -1,6 +1,9 @@
 body {
   font-family: Roboto, sans-serif;
 }
+/* #region header */
+.header-nav {
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -19,7 +22,9 @@ body {
   letter-spacing: 0.03em;
   color: #2e2f42;
 }
-
+.nav-list {
+}
+.item {}
 .item-link {
   font-size: 16px;
   font-weight: 500;
@@ -37,6 +42,8 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+.address {}
+.add-list {}
 .add-item {
   font-size: 16px;
   font-weight: 400;
@@ -54,6 +61,7 @@ body {
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+/* #endregion */
 .hero {
   background-color: #2e2f42;
 }
@@ -174,3 +182,7 @@ h1 {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+/* #region header */
+
+/* #endregion */
+.logo   
