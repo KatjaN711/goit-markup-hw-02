@@ -1,3 +1,4 @@
+
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -40,12 +41,15 @@ button {
 .nav-item-link:focus {
   color: #404bbf;
 }
+.address {
+  font-size: normal;
+}
 .address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
+  font-size: normal;
   color: #434455;
 }
 .address-link:hover,
@@ -64,6 +68,7 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -85,6 +90,7 @@ h1 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .features-text {
@@ -94,18 +100,27 @@ h1 {
 }
 /* #endregion */
 /* #region team */
+.team {
+  background-color: #F4F4FD;
+}
 .team-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.team-item {
-  font-size: 20px;
+.team-list {
+  background-color: #FFFFFF;
+}
+.image-name {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .image-text {
   font-size: 16px;
@@ -114,12 +129,20 @@ h1 {
 }
 /* #endregion */
 /* #region portfolio */
+.portfolio {
+  background-color: #F4F4FD;
+}
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.portfolio-list {
+  background-color: #FFFFFF;
 }
 .picture-title {
   font-size: 20px;
